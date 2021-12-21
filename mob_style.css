@@ -1,0 +1,56 @@
+@media (max-width: 1100px) {
+  body {
+    background-image: url(images/bg-mobile.svg);
+  }
+
+  .main {
+    padding: 35px;
+  }
+
+  .logo img {
+    width: 130px;
+  }
+
+  .container {
+    flex-direction: column;
+    margin-top: 55px;
+    align-items: center;
+  }
+
+  .illustration img {
+    width: 300px;
+  }
+
+  .text {
+    padding: 0;
+    text-align: center;
+    align-items: center;
+  }
+
+  .header {
+    font-size: 12px;
+  }
+
+  .main__text {
+    font-size: 16px;
+  }
+
+  .btn {
+    height: 40px;
+  }
+
+  .social__media {
+    margin-top: 50px;
+    margin-bottom: 30px;
+    justify-content: center;
+  }
+
+  .social a {
+    width: 30px;
+    height: 30px;
+    font-size: 8px;
+    border-radius: 24px;
+    margin: 0 10px 10px 0;
+    padding: 6px;
+  }
+}
